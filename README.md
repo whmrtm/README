@@ -1,43 +1,26 @@
-README
+﻿README
 ===========================
-该文件用来测试和展示书写README的各种markdown语法。GitHub的markdown语法在标准的markdown语法基础上做了扩充，称之为`GitHub Flavored Markdown`。简称`GFM`，GFM在GitHub上有广泛应用，除了README文件外，issues和wiki均支持markdown语法。
-
+This file is used to display how to write markdown grammer, inspired by Jelly (87923)
 ****
-###　　　　　　　　　　　　Author:Jelly
-###　　　　　　　　　 E-mail:879231132@qq.com
+
+Author: Heming Wang (Owen)
 
 ===========================
 
 
 
-##<a name="index"/>目录
-* [横线](#line)
-* [标题](#title)
-* [文本](#text)
-    * 普通文本
-    * 单行文本
-    * 多行文本
-    * 文字高亮
-* [链接](#link) 
-    * 文字超链接
-        *  链接外部URL
-        *  链接本仓库里的URL
-    *  锚点
-    * [图片超链接](#piclink)
-* [图片](#pic)
-    * 来源于网络的图片
-    * GitHub仓库中的图片
-* [列表](#dot)
-    * 圆点列表
-    * 数字列表
-    * 复选框列表
-* [块引用](#blockquotes)
-* [代码](#code)
-* [表格](#table) 
-* [表情](#emoji)
-
+##<a name="index"/>Index
+* [Line](#line)
+* [Title](#title)
+* [Text](#text)
+    * Regular text
+* [Link](#link) 
+    * Text
+        *  URL
+        *  Other URL
+* [Emoji](#emoji)
 <a name="line"/>
-##***、---、___显示虚横线
+##***、---、___ Display different lines
 ***
 ---
 ___
@@ -45,55 +28,51 @@ ___
 
 
 <a name="title"/>
-#一级标题
-##二级标题
-###三级标题
-####四级标题
-#####五级标题
-######六级标题
+#First level title
+##Second level title
+###Third level title
+####Fourth level title
+#####Fifth level title
 
 
-##<a name="text"/>显示文本
-###普通文本
-这是一段普通的文本
-####关于换行
-直接回车不能换行，<br>
-可以使用\<br>。
-但是使用html标签就丧失了markdown的意义。  
-可以在上一行文本后面补两个空格，  
-这样下一行的文本就换行了。
 
-或者就是在两行文本直接加一个空行。
+##<a name="text"/>Display text
+###Regular text
+This is some regular text
+####About newline
+You cannot just use enter<br>
+actually you can use HTML tags\<br>
+But then what is the point of using markdown?  
+Add two spaces after last line  
+Then we are down
 
-也能实现换行效果，不过这个行间距有点大。
-###单行文本
-    Hello,大家好，我是果冻虾仁。
-###文本块
-    欢迎到访
-    很高兴见到您
-    祝您，早上好，中午好，下午好，晚安
-###部分文字高亮
+Or simply just add a blank line between two lines
+
+###Single line text
+    Hello World
+###Block
+    Welcome  
+    Nice to meet you!
+###Highlight
 Thank `You` . Please `Call` Me `Coder`
-####高亮功能更适合做一篇文章的tag
-例如:<br>
-`java` `网络编程` `Socket` `全双工`
-####删除线
-这是一个 ~~删除线~~
-####斜体
-*斜体1*
+####Highlight can be used as a tag
+For instance:<br>
+`java` `C++` `Socket` `Scheme`
+####Strikethrough
+This is a  ~~Strikethrough~~
+####Italic
+*Italic 1*
 
-_斜体2_
-####粗体
-**粗体1**
+_Italic 2_
+####Bold
+**Bold 1**
 
-__粗体2__
+__Bold 2__
 
-##<a name="link"/>链接
-###链接外部URL
-[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")   语法如下：
-```
-[我的博客](http://blog.csdn.net/guodongxiaren "悬停显示")
-```
+##<a name="link"/>Link
+###Linked to outside URLs
+[Google](http://Google.ca) 
+
 ###链接的另一种写法
 [我的博客][1]  
 
