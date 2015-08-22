@@ -73,74 +73,66 @@ __Bold 2__
 ###Linked to outside URLs
 [Google](http://Google.ca) 
 
-###链接的另一种写法
-[我的博客][1]  
+###Another way to write url
+[MyBlog][1]  
 
-[1]:http://blog.csdn.net/guodongxiaren "悬停显示"   语法如下：
+[1]:http://blog.csdn.net/guodongxiaren 
 ```
-[我的博客][1]
-[1]:http://blog.csdn.net/guodongxiaren "悬停显示"
-```
-中括号[ ]里的id，可以是数字，字母等的组合。这两行可以不连着写，**一般把第二行的链接统一放在文章末尾**，id上下对应就行了。这样正文看起来会比较干净。
+[MyBlog][1]  
 
-###链接本仓库里的URL
+[1]:http://blog.csdn.net/guodongxiaren 
+```
+
+
+###Link URL in this Respotory
 [Book](./Book)
-语法如下：
+grammer as follows：
 ```
 [Book](./Book)
 ```
-如果文件要引用的文件不存在，则待点击的文本为红色。引用的文件存在存在则文本为蓝色。
-###锚点
-我们可以使用HTML的锚点标签（`#`）来设置锚点：[回到目录](#index)  
-但其实呢，每一个标题都是一个锚点，不需要用标签来指定，比如我们 [回到顶部](#TEST)
-不过不幸的是，由于对中文支持的不好，所以中文标题貌似是不能视作标签的。
+###Hashtag
+[Index](#index)  
+[Top](#TEST)
 
-##<a name="pic"/>显示图片
-###来源于网络的图片
-![baidu](http://www.baidu.com/img/bdlogo.gif "百度logo")
-![](https://assets-cdn.github.com/images/modules/contact/goldstar.gif)
+##<a name="pic"/>Show pics
+###Pics from Internet
+![baidu](http://www.baidu.com/img/bdlogo.gif "BAIDU logo")
 
-###GitHub仓库中的图片
+###Pics from GitHub
 ![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
-###<a name="piclink">给图片加上超链接
+###<a name="piclink">Add link
 [![head]](http://blog.csdn.net/guodongxiaren/article/details/23690801)
-[head]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/jianxin.jpg "点击图片进入我的博客"
+[head]:https://github.com/guodongxiaren/ImageCache/raw/master/Logo/jianxin.jpg "BLOG"
 
-##<a name="dot"/>列表
-###圆点列表
-* 昵称：果冻虾仁
-* 别名：隔壁老王
-* 英文名：Jelly
+##<a name="dot"/>List
+###Dots list
+* Nickname：WTD
+* English name：Owen
 
-###更多圆点
-* 编程语言
-    * 脚本语言
+###More dots
+* Code
+    * Script
         * Python
 
-###数字列表
-####一般效果
-就是在数字后面加一个点，再加一个空格。不过看起来起来可能不够明显。    
-面向对象的三个基本特征：
+###Num lists
+####General
 
-1. 封装
-2. 继承
-3. 多态
+1. A
+2. B
+3. C
 
-####数字列表自动排序
-也可以在第一行指定`1. `，而接下来的几行用星号`*`（或者继续用数字1. ）就可以了，它会自动显示成2、3、4……。    
-面向对象的七大原则：
+####Automatically ranked
+Choose at the first line `1. `，Use asterik for the rest `*` 
 
-1. 开闭原则
-* 里氏转换原则
-* 依赖倒转原则
-* 接口隔离原则
-* 组合/聚合复用原则
-* “迪米特”法则
-* 单一直则原则
+1. One
+* Two
+* Three
+* Four
+* Five
+* Six
 
-####多级数字列表
-和圆点的列表一样，数字列表也有多级结构：  
-
+####Multiple layer of list
+Multiple layers
 1. 这是一级的数字列表，数字1还是1
    1. 这是二级的数字列表，阿拉伯数字在显示的时候变成了罗马数字
       1. 这是三级的数字列表，数字在显示的时候变成了英文字母
